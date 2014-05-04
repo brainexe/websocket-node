@@ -1,0 +1,13 @@
+{
+	"name": "websocket",
+	"version": "0.0.1",
+	"description": "A socket server",
+	"author": "Matthias Doetsch <matze@mdoestch.de>",
+	"dependencies": {
+		"sockjs": ">= 0.3.5",
+		"node-static": ">= 0.6.9",
+		"exec-sync": ">= 0.1.5",
+		"hiredis": ">= 0.1.16"
+	},
+	"engine": "node 0.8.22"
+}
