@@ -5,7 +5,8 @@
 	"author": "Matthias Doetsch <matze@mdoestch.de>",
 	"dependencies": {
 		"sockjs": ">= 0.3.5",
-		"hiredis": ">= 0.1.16"
+		"hiredis": ">= 0.1.16",
+		"redis": ">= 0.12.1"
 	},
-	"engine": "node 0.8.22"
+	"engine": "node >= 0.8.22"
 }
