@@ -2,10 +2,9 @@ var config = require('./ServerConfig.js'),
 	sockjs = require('sockjs'),
 	redis = require("redis");
 
-var redis_client = redis.createClient();
-
+var redis_client  = redis.createClient();
 var socket_server = sockjs.createServer();
-var server = require('http').createServer();
+var server        = require('http').createServer();
 
 socket_server.installHandlers(server, {
 	prefix: '/socket'
