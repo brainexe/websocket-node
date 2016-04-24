@@ -1,11 +1,10 @@
 {
 	"name": "websocket-node",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A simple socket server to push messages from backend via redis to browser clients",
 	"author": "Matthias Doetsch <matze@mdoestch.de>",
 	"dependencies": {
-		"sockjs": ">= 0.3.15",
-		"redis": ">= 2.5.0-1"
-	},
-	"engine": "node >= 0.10.*"
+		"sockjs": "~0.3",
+		"redis": "~2.5"
+	}
 }
